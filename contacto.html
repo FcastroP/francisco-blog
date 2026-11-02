@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta a Francisco J Castro para conversar sobre tecnología, proyectos y nuevas ideas.">
+    <title>Contacto | Francisco J Castro</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="brand">Francisco J Castro</a>
+
+    <nav class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="vida-academica.html">Vida académica</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+
+    <a href="contacto.html" class="search-link" aria-label="Contacto">
+        <span class="search-icon"></span>
+    </a>
+</header>
+
+<main class="contact-page">
+
+    <!-- PORTADA DE CONTACTO -->
+    <section class="contact-hero">
+        <div class="contact-hero-copy">
+            <div class="section-number">05 <span></span> CONTACTO</div>
+
+            <p class="eyebrow-dark">CONVERSEMOS · CONECTEMOS · CREEMOS</p>
+
+            <h1>Hablemos,<br>construyamos<br><em>nuevas ideas.</em></h1>
+
+            <p>
+                Siempre hay espacio para aprender de otras personas,
+                compartir ideas y explorar nuevas oportunidades.
+                Si quieres conversar sobre tecnología, proyectos o
+                experiencias, este es el lugar.
+            </p>
+
+            <a href="#enviar-mensaje" class="btn btn-dark">
+                Envíame un mensaje <span>↓</span>
+            </a>
+        </div>
+
+        <div class="contact-hero-image">
+            <img src="images/contacto.jpg"
+                 alt="Espacio de trabajo con computador y libreta">
+
+            <div class="contact-image-caption">
+                <span>IDEAS EN CONSTRUCCIÓN</span>
+                <span>BOGOTÁ, COLOMBIA</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFORMACION DE CONTACTO -->
+    <section class="contact-details">
+        <div class="contact-details-heading">
+            <div class="section-number">01 <span></span> CONECTEMOS</div>
+            <h2>Las buenas ideas<br>comienzan conversando.</h2>
+            <p>
+                Estoy abierto a conocer personas, intercambiar
+                conocimientos y explorar nuevas posibilidades.
+            </p>
+        </div>
+
+        <div class="contact-methods">
+
+            <article class="contact-method">
+                <span class="contact-method-icon">@</span>
+                <div>
+                    <span class="contact-label">CORREO ELECTRÓNICO</span>
+                    <h3>Escríbeme</h3>
+                    <p>Para consultas, ideas o conversaciones profesionales.</p>
+                    <a href="#enviar-mensaje">Enviar mensaje →</a>
+                </div>
+            </article>
+
+            <article class="contact-method">
+                <span class="contact-method-icon">in</span>
+                <div>
+                    <span class="contact-label">LINKEDIN</span>
+                    <h3>Conectemos profesionalmente</h3>
+                    <p>Para compartir experiencias y crear conexiones.</p>
+                    <a href="https://www.linkedin.com/"
+                       target="_blank" rel="noopener noreferrer">
+                        Visitar LinkedIn ↗
+                    </a>
+                </div>
+            </article>
+
+            <article class="contact-method">
+                <span class="contact-method-icon">GH</span>
+                <div>
+                    <span class="contact-label">GITHUB</span>
+                    <h3>Explora mi trabajo</h3>
+                    <p>Para conocer proyectos y experiencias de programación.</p>
+                    <a href="https://github.com/"
+                       target="_blank" rel="noopener noreferrer">
+                        Visitar GitHub ↗
+                    </a>
+                </div>
+            </article>
+
+            <article class="contact-method">
+                <span class="contact-method-icon">⌖</span>
+                <div>
+                    <span class="contact-label">UBICACIÓN</span>
+                    <h3>Bogotá, Colombia</h3>
+                    <p>Actualmente vivo en la capital colombiana.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="contact-form-section" id="enviar-mensaje">
+
+        <div class="contact-form-intro">
+            <div class="section-number">02 <span></span> HABLEMOS</div>
+
+            <h2>¿Tienes una idea<br>en mente?</h2>
+
+            <p>
+                Cuéntame un poco sobre lo que necesitas o el tema
+                que te gustaría conversar. Será un gusto conocer tu propuesta.
+            </p>
+
+            <div class="contact-form-quote">
+                <span>“</span>
+                <p>
+                    Las grandes oportunidades pueden comenzar
+                    con una conversación sencilla.
+                </p>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+
+            <div class="form-heading">
+                <h3>Envíame un mensaje</h3>
+                <p>Completa los siguientes campos.</p>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        autocomplete="name"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo electrónico</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="nombre@correo.com"
+                        autocomplete="email"
+                        required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <select id="asunto" name="asunto" required>
+                    <option value="">Selecciona un tema</option>
+                    <option value="proyecto">Propuesta de proyecto</option>
+                    <option value="tecnologia">Tecnología y programación</option>
+                    <option value="academico">Tema académico</option>
+                    <option value="colaboracion">Colaboración</option>
+                    <option value="otro">Otro asunto</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Tu mensaje</label>
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Cuéntame un poco más..."
+                    required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-dark form-submit">
+                Preparar mensaje <span>→</span>
+            </button>
+
+            <p class="form-note">
+                Se abrirá tu aplicación de correo para que revises
+                y envíes el mensaje.
+            </p>
+
+            <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+
+        </form>
+    </section>
+
+    <!-- MENSAJE FINAL -->
+    <section class="contact-closing">
+        <p class="closing-label">FRANCISCO JOSE CASTRO · BOGOTÁ</p>
+        <h2>Disciplina hoy,<br>resultados mañana.</h2>
+        <p>
+            Gracias por visitar mi espacio personal y conocer
+            un poco de mi historia, mis proyectos y mis aspiraciones.
+        </p>
+
+        <a href="index.html" class="btn btn-primary">
+            Volver al inicio <span>↑</span>
+        </a>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-brand">
+        <a href="index.html">Francisco Jose Castro</a>
+        <p>Estudiante de Ingeniería de Sistemas</p>
+        <p>Universidad Libre de Colombia</p>
+        <span>Bogotá, Colombia</span>
+    </div>
+
+    <nav class="footer-nav" aria-label="Navegación del pie de página">
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="vida-academica.html">Vida académica</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="footer-social">
+        <span>Encuéntrame</span>
+        <a href="contacto.html#enviar-mensaje">Correo</a>
+        <a href="https://www.linkedin.com/"
+           target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/"
+           target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+
+    <p class="copyright">© 2026 Francisco Jose Castro · Blog personal</p>
+</footer>
+
+<script>
+    const formulario = document.getElementById("contactForm");
+    const feedback = document.getElementById("formFeedback");
+
+    formulario.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        if (!formulario.reportValidity()) {
+            return;
+        }
+
+        const datos = new FormData(formulario);
+        const nombre = datos.get("nombre").trim();
+        const correo = datos.get("correo").trim();
+        const asunto = datos.get("asunto");
+        const mensaje = datos.get("mensaje").trim();
+
+        /*
+          Sustituye este correo por tu dirección real.
+          El formulario abrirá la aplicación de correo del visitante.
+        */
+        const correoDestino = "TU_CORREO_AQUI";
+
+        if (
+            !correoDestino ||
+            correoDestino === "TU_CORREO_AQUI"
+        ) {
+            feedback.textContent =
+                "Antes de usar el formulario, configura tu dirección de correo en el código.";
+            return;
+        }
+
+        const asuntoTexto = "Contacto desde mi blog: " + asunto;
+        const cuerpo =
+            "Nombre: " + nombre + "\n" +
+            "Correo: " + correo + "\n\n" +
+            "Mensaje:\n" + mensaje;
+
+        const url =
+            "mailto:" + correoDestino +
+            "?subject=" + encodeURIComponent(asuntoTexto) +
+            "&body=" + encodeURIComponent(cuerpo);
+
+        feedback.textContent =
+            "Se abrirá tu aplicación de correo para revisar el mensaje.";
+
+        window.location.href = url;
+    });
+</script>
+
+</body>
+</html>

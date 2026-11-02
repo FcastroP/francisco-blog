@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artículos, viajes, experiencias universitarias y reflexiones personales de Francisco J Castro.">
+    <title>Blog | Francisco Jose Castro</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="brand">Francisco Jose Castro</a>
+
+    <nav class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="vida-academica.html">Vida académica</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <a href="contacto.html" class="search-link" aria-label="Ir a contacto">
+        <span class="search-icon"></span>
+    </a>
+</header>
+
+<main class="personal-blog">
+
+    <!-- PORTADA EDITORIAL -->
+    <section class="blog-hero">
+        <div class="blog-hero-copy">
+            <div class="section-number">04 <span></span> BLOG PERSONAL</div>
+
+            <p class="eyebrow-dark">EXPERIENCIAS · IDEAS · APRENDIZAJES</p>
+
+            <h1>Reflexiones<br>que me <em>inspiran.</em></h1>
+
+            <p>
+                Un espacio para compartir experiencias de mi vida,
+                aprendizajes de la universidad, viajes que dejan huella
+                y metas que me motivan a seguir creciendo.
+            </p>
+
+            <a href="#publicaciones" class="btn btn-dark">
+                Explorar artículos <span>↓</span>
+            </a>
+        </div>
+
+        <div class="blog-hero-image">
+            <img src="images/blog-portada.jpg"
+                 alt="Francisco contemplando un paisaje durante un viaje">
+            </img>     
+        </div>
+    </section>
+
+    <!-- FRASE EDITORIAL -->
+    <section class="blog-manifesto">
+        <span class="manifesto-mark">“</span>
+        <p>
+            Cada experiencia, por pequeña que parezca,
+            puede acercarnos a la persona que queremos ser.
+        </p>
+        <span class="manifesto-author">UNA REFLEXIÓN PERSONAL</span>
+    </section>
+
+    <!-- FILTROS -->
+    <section class="blog-publications" id="publicaciones">
+
+        <div class="blog-section-heading">
+            <div>
+                <div class="section-number">01 <span></span> PUBLICACIONES</div>
+                <h2>Historias que vale la pena contar.</h2>
+            </div>
+
+            <p>
+                Experiencias reales, ideas y aprendizajes
+                desde mi perspectiva.
+            </p>
+        </div>
+
+        <div class="blog-filters" aria-label="Filtrar artículos">
+            <button class="blog-filter active" data-filter="todos" aria-pressed="true">
+                Todos
+            </button>
+            <button class="blog-filter" data-filter="viajes" aria-pressed="false">
+                Viajes
+            </button>
+            <button class="blog-filter" data-filter="universidad" aria-pressed="false">
+                Vida universitaria
+            </button>
+            <button class="blog-filter" data-filter="metas" aria-pressed="false">
+                Crecimiento personal
+            </button>
+        </div>
+
+        <!-- ARTICULO DESTACADO -->
+        <article class="featured-article" data-category="viajes">
+            <a href="articulo-europa.html" class="featured-article-image">
+                <img src="images/viaje-europa.jpg"
+                     alt="Paisaje urbano de Europa durante un viaje familiar">
+
+                <span class="featured-label">ARTÍCULO DESTACADO</span>
+            </a>
+
+            <div class="featured-article-copy">
+                <span class="article-category">VIAJES Y EXPERIENCIAS</span>
+
+                <h3>
+                    <a href="articulo-europa.html">
+                        Así es viajar por Europa con familia en plena etapa final de COVID-19
+                    </a>
+                </h3>
+
+                <p class="article-excerpt">
+                    Viajar en familia durante la etapa final de la pandemia
+                    significó descubrir lugares nuevos en una época de
+                    cambios, restricciones y nuevas formas de recorrer el mundo.
+                </p>
+
+                <p class="article-disclaimer">
+                    Una mirada personal a los recuerdos, las experiencias
+                    y lo que significó viajar en ese contexto.
+                </p>
+
+                <a href="articulo-europa.html" class="article-read">
+                    Leer historia completa <span>→</span>
+                </a>
+            </div>
+        </article>
+
+        <!-- CUADRICULA DE ARTICULOS -->
+        <div class="blog-article-grid">
+
+            <article class="editorial-card" data-category="universidad">
+                <a href="articulo-universidad.html" class="editorial-image">
+                    <img src="images/vida-universitaria.jpg"
+                         alt="Computador y apuntes de estudio">
+                    <span class="editorial-index">01</span>
+                </a>
+
+                <div class="editorial-content">
+                    <span class="article-category">VIDA UNIVERSITARIA</span>
+                    <h3>
+                        <a href="articulo-universidad.html">
+                            Mi experiencia en la universidad
+                        </a>
+                    </h3>
+
+                    <p>
+                        Los retos de Ingeniería de Sistemas, los nuevos
+                        conocimientos y el proceso de adaptarme a una
+                        etapa llena de aprendizajes.
+                    </p>
+
+                    <a href="articulo-universidad.html" class="article-read">
+                        Leer artículo <span>→</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="editorial-card" data-category="metas">
+                <a href="articulo-metas.html" class="editorial-image">
+                    <img src="images/metas.jpg"
+                         alt="Carretera entre montañas que representa nuevos objetivos">
+                    <span class="editorial-index">02</span>
+                </a>
+
+                <div class="editorial-content">
+                    <span class="article-category">CRECIMIENTO PERSONAL</span>
+                    <h3>
+                        <a href="articulo-metas.html">
+                            Mis metas para los próximos años
+                        </a>
+                    </h3>
+
+                    <p>
+                        Mi visión de futuro: terminar la carrera,
+                        especializarme en gerencia de proyectos y cursar
+                        una maestría en ciberseguridad.
+                    </p>
+
+                    <a href="articulo-metas.html" class="article-read">
+                        Leer artículo <span>→</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="editorial-card" data-category="viajes">
+                <a href="articulo-viajar.html" class="editorial-image">
+                    <img src="images/viajes-colombia.jpg"
+                         alt="Paisaje de montaña durante una ruta de viaje">
+                    <span class="editorial-index">03</span>
+                </a>
+
+                <div class="editorial-content">
+                    <span class="article-category">VIAJES</span>
+                    <h3>
+                        <a href="articulo-viajar.html">
+                            Viajar también es aprender
+                        </a>
+                    </h3>
+
+                    <p>
+                        Descubrir nuevos lugares, compartir momentos
+                        y aprender a mirar la vida desde otras perspectivas.
+                    </p>
+
+                    <a href="articulo-viajar.html" class="article-read">
+                        Leer artículo <span>→</span>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- CATEGORIAS DESTACADAS -->
+    <section class="blog-topics">
+        <div class="section-number">02 <span></span> MIS TEMAS</div>
+        <h2>Lo que encontrarás aquí.</h2>
+
+        <div class="blog-topic-grid">
+            <a href="#publicaciones" class="blog-topic" data-topic="universidad">
+                <span>01 / APRENDER</span>
+                <h3>Vida universitaria</h3>
+                <p>Experiencias, retos y aprendizajes de mi formación.</p>
+                <span class="topic-arrow">↗</span>
+            </a>
+
+            <a href="#publicaciones" class="blog-topic" data-topic="viajes">
+                <span>02 / EXPLORAR</span>
+                <h3>Viajes y experiencias</h3>
+                <p>Lugares, recuerdos y momentos compartidos.</p>
+                <span class="topic-arrow">↗</span>
+            </a>
+
+            <a href="#publicaciones" class="blog-topic" data-topic="metas">
+                <span>03 / CRECER</span>
+                <h3>Metas y proyectos futuros</h3>
+                <p>Ideas, objetivos y caminos por construir.</p>
+                <span class="topic-arrow">↗</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- CIERRE -->
+    <section class="blog-closing">
+        <p class="closing-label">UNA HISTORIA EN CONSTRUCCIÓN</p>
+        <h2>Siempre hay algo nuevo<br>que aprender y compartir.</h2>
+        <p>
+            Este espacio crece conmigo, con mis experiencias,
+            mis proyectos y todo lo que todavía está por venir.
+        </p>
+
+        <a href="contacto.html" class="btn btn-primary">
+            Compartir una idea <span>→</span>
+        </a>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-brand">
+        <a href="index.html">Francisco Jose Castro</a>
+        <p>Estudiante de Ingeniería de Sistemas</p>
+        <p>Universidad Libre de Colombia</p>
+        <span>Bogotá, Colombia</span>
+    </div>
+
+    <nav class="footer-nav" aria-label="Navegación del pie de página">
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="vida-academica.html">Vida académica</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="footer-social">
+        <span>Encuéntrame</span>
+        <a href="contacto.html">Correo</a>
+        <a href="contacto.html">LinkedIn</a>
+        <a href="contacto.html">GitHub</a>
+    </div>
+
+    <p class="copyright">© 2026 Francisco Jose Castro · Blog personal</p>
+</footer>
+
+<script>
+    const filtros = document.querySelectorAll(".blog-filter");
+    const articulos = document.querySelectorAll("[data-category]");
+    const temas = document.querySelectorAll(".blog-topic");
+
+    function filtrarArticulos(categoria) {
+        filtros.forEach((boton) => {
+            const seleccionado = boton.dataset.filter === categoria;
+            boton.classList.toggle("active", seleccionado);
+            boton.setAttribute("aria-pressed", seleccionado);
+        });
+
+        articulos.forEach((articulo) => {
+            articulo.hidden =
+                categoria !== "todos" &&
+                articulo.dataset.category !== categoria;
+        });
+    }
+
+    filtros.forEach((boton) => {
+        boton.addEventListener("click", () => {
+            filtrarArticulos(boton.dataset.filter);
+        });
+    });
+
+    temas.forEach((tema) => {
+        tema.addEventListener("click", () => {
+            filtrarArticulos(tema.dataset.topic);
+        });
+    });
+</script>
+
+</body>
+</html>
